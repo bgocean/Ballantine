@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background-image: url(../img/bg.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.header {
+    padding-top: 46px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 240px;
+}
+
+.menu ul {
+    display: flex;
+    margin-left: 34px;
+    position: relative;
+    top: -5px;
+}
+
+.menu li + li {
+    margin-left: 25px;
+}
+
+.menu a {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.item {
+    text-align: start;
+    color: #fff;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 120px;
+    line-height: normal;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: normal;
+    margin-bottom: 46px;
+    max-width: 675px;
+}
+
+.slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+}
+
+.slick-dots li + li {
+    margin-left: 15px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    border: none;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    outline: none;
+}
+
+
